@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>URL Shortener</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+        <h1>🔗 URL Shortener</h1>
+        <p>Convert long links into short, shareable URLs</p>
+
+        <input
+                type="text"
+                id="longUrl"
+                placeholder="https://www.example.com/some/very/long/url"
+        >
+
+        <button onclick="shortenUrl()">Shorten URL</button>
+        <button class="secondary" onclick="clearAll()">Clear</button>
+
+        <div id="result"></div>
+    </div>
+</div>
+
+<script src="/js/app.js"></script>
+</body>
+</html>

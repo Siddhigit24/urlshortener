@@ -1,0 +1,25 @@
+.secondary {
+    margin-top: 10px;
+    background: #e2e8f0;
+    color: #333;
+}
+
+.secondary:hover {
+    background: #cbd5e1;
+}
+
+#result {
+    margin-top: 20px;
+    padding: 12px;
+    background: #f1f5f9;
+    border-radius: 8px;
+}
+
+.copy-btn {
+    margin-top: 10px;
+    background: #10b981;
+}
+
+.copy-btn:hover {
+    background: #059669;
+}
